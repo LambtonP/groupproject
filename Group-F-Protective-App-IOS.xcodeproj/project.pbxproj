@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54CDC43E94083FD1ED339532 /* Pods_Group_F_Protective_App_IOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A3AB8CEA5CF0FAF82037611 /* Pods_Group_F_Protective_App_IOSTests.framework */; };
+		614F696189146496A895B189 /* Pods_Group_F_Protective_App_IOS_Group_F_Protective_App_IOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994E895A6348A53AD3413D7B /* Pods_Group_F_Protective_App_IOS_Group_F_Protective_App_IOSUITests.framework */; };
+		BE16082529D5BCE7AEFB45D0 /* Pods_Group_F_Protective_App_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD1973C5C9AEB0ABAD255AD /* Pods_Group_F_Protective_App_IOS.framework */; };
 		D009822F23870FE800784BF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D009822E23870FE800784BF8 /* AppDelegate.swift */; };
 		D009823123870FE800784BF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D009823023870FE800784BF8 /* SceneDelegate.swift */; };
 		D009823323870FE800784BF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D009823223870FE800784BF8 /* ViewController.swift */; };
@@ -15,6 +18,12 @@
 		D009823B23870FE900784BF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D009823923870FE900784BF8 /* LaunchScreen.storyboard */; };
 		D009824623870FEA00784BF8 /* Group_F_Protective_App_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D009824523870FEA00784BF8 /* Group_F_Protective_App_IOSTests.swift */; };
 		D009825123870FEA00784BF8 /* Group_F_Protective_App_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D009825023870FEA00784BF8 /* Group_F_Protective_App_IOSUITests.swift */; };
+		D009825F2387101A00784BF8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D009825E2387101A00784BF8 /* Constants.swift */; };
+		D00982612387104A00784BF8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00982602387104A00784BF8 /* Utilities.swift */; };
+		D00982632387139400784BF8 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00982622387139400784BF8 /* SignupViewController.swift */; };
+		D0098265238713A500784BF8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0098264238713A500784BF8 /* LoginViewController.swift */; };
+		D0098267238713B400784BF8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0098266238713B400784BF8 /* HomeViewController.swift */; };
+		D00982692387177B00784BF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D00982682387177B00784BF8 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1ECD0D95F1A15F6408C3C8D3 /* Pods-Group-F-Protective-App-IOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Group-F-Protective-App-IOSTests.release.xcconfig"; path = "Target Support Files/Pods-Group-F-Protective-App-IOSTests/Pods-Group-F-Protective-App-IOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		20DC8A3EAC91073211495889 /* Pods-Group-F-Protective-App-IOS-Group-F-Protective-App-IOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Group-F-Protective-App-IOS-Group-F-Protective-App-IOSUITests.release.xcconfig"; path = "Target Support Files/Pods-Group-F-Protective-App-IOS-Group-F-Protective-App-IOSUITests/Pods-Group-F-Protective-App-IOS-Group-F-Protective-App-IOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2A3AB8CEA5CF0FAF82037611 /* Pods_Group_F_Protective_App_IOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Group_F_Protective_App_IOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD1973C5C9AEB0ABAD255AD /* Pods_Group_F_Protective_App_IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Group_F_Protective_App_IOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		644F11206B549BCEAB347E32 /* Pods-Group-F-Protective-App-IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Group-F-Protective-App-IOS.release.xcconfig"; path = "Target Support Files/Pods-Group-F-Protective-App-IOS/Pods-Group-F-Protective-App-IOS.release.xcconfig"; sourceTree = "<group>"; };
+		897E503103A29FF4C6E6BBDC /* Pods-Group-F-Protective-App-IOS-Group-F-Protective-App-IOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Group-F-Protective-App-IOS-Group-F-Protective-App-IOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-Group-F-Protective-App-IOS-Group-F-Protective-App-IOSUITests/Pods-Group-F-Protective-App-IOS-Group-F-Protective-App-IOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		994E895A6348A53AD3413D7B /* Pods_Group_F_Protective_App_IOS_Group_F_Protective_App_IOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Group_F_Protective_App_IOS_Group_F_Protective_App_IOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D009822B23870FE800784BF8 /* Group-F-Protective-App-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Group-F-Protective-App-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D009822E23870FE800784BF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D009823023870FE800784BF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +65,14 @@
 		D009824C23870FEA00784BF8 /* Group-F-Protective-App-IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Group-F-Protective-App-IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D009825023870FEA00784BF8 /* Group_F_Protective_App_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group_F_Protective_App_IOSUITests.swift; sourceTree = "<group>"; };
 		D009825223870FEA00784BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D009825E2387101A00784BF8 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D00982602387104A00784BF8 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		D00982622387139400784BF8 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		D0098264238713A500784BF8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D0098266238713B400784BF8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D00982682387177B00784BF8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D5FD6B8733CD94E3D4A0DFAF /* Pods-Group-F-Protective-App-IOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Group-F-Protective-App-IOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Group-F-Protective-App-IOSTests/Pods-Group-F-Protective-App-IOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC0FA4E3728C6AED227B21C7 /* Pods-Group-F-Protective-App-IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Group-F-Protective-App-IOS.debug.xcconfig"; path = "Target Support Files/Pods-Group-F-Protective-App-IOS/Pods-Group-F-Protective-App-IOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE16082529D5BCE7AEFB45D0 /* Pods_Group_F_Protective_App_IOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54CDC43E94083FD1ED339532 /* Pods_Group_F_Protective_App_IOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +96,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				614F696189146496A895B189 /* Pods_Group_F_Protective_App_IOS_Group_F_Protective_App_IOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A217BD547DCBCB3BDCA57961 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC0FA4E3728C6AED227B21C7 /* Pods-Group-F-Protective-App-IOS.debug.xcconfig */,
+				644F11206B549BCEAB347E32 /* Pods-Group-F-Protective-App-IOS.release.xcconfig */,
+				897E503103A29FF4C6E6BBDC /* Pods-Group-F-Protective-App-IOS-Group-F-Protective-App-IOSUITests.debug.xcconfig */,
+				20DC8A3EAC91073211495889 /* Pods-Group-F-Protective-App-IOS-Group-F-Protective-App-IOSUITests.release.xcconfig */,
+				D5FD6B8733CD94E3D4A0DFAF /* Pods-Group-F-Protective-App-IOSTests.debug.xcconfig */,
+				1ECD0D95F1A15F6408C3C8D3 /* Pods-Group-F-Protective-App-IOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D009822223870FE800784BF8 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +124,8 @@
 				D009824423870FEA00784BF8 /* Group-F-Protective-App-IOSTests */,
 				D009824F23870FEA00784BF8 /* Group-F-Protective-App-IOSUITests */,
 				D009822C23870FE800784BF8 /* Products */,
+				A217BD547DCBCB3BDCA57961 /* Pods */,
+				D0582C5D0FED9EDAF8EF228D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +142,9 @@
 		D009822D23870FE800784BF8 /* Group-F-Protective-App-IOS */ = {
 			isa = PBXGroup;
 			children = (
+				D00982682387177B00784BF8 /* GoogleService-Info.plist */,
+				D00982602387104A00784BF8 /* Utilities.swift */,
+				D009825E2387101A00784BF8 /* Constants.swift */,
 				D009822E23870FE800784BF8 /* AppDelegate.swift */,
 				D009823023870FE800784BF8 /* SceneDelegate.swift */,
 				D009823223870FE800784BF8 /* ViewController.swift */,
@@ -106,6 +152,9 @@
 				D009823723870FE900784BF8 /* Assets.xcassets */,
 				D009823923870FE900784BF8 /* LaunchScreen.storyboard */,
 				D009823C23870FE900784BF8 /* Info.plist */,
+				D00982622387139400784BF8 /* SignupViewController.swift */,
+				D0098264238713A500784BF8 /* LoginViewController.swift */,
+				D0098266238713B400784BF8 /* HomeViewController.swift */,
 			);
 			path = "Group-F-Protective-App-IOS";
 			sourceTree = "<group>";
@@ -128,6 +177,16 @@
 			path = "Group-F-Protective-App-IOSUITests";
 			sourceTree = "<group>";
 		};
+		D0582C5D0FED9EDAF8EF228D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AD1973C5C9AEB0ABAD255AD /* Pods_Group_F_Protective_App_IOS.framework */,
+				994E895A6348A53AD3413D7B /* Pods_Group_F_Protective_App_IOS_Group_F_Protective_App_IOSUITests.framework */,
+				2A3AB8CEA5CF0FAF82037611 /* Pods_Group_F_Protective_App_IOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D009825523870FEA00784BF8 /* Build configuration list for PBXNativeTarget "Group-F-Protective-App-IOS" */;
 			buildPhases = (
+				60A36FCA9426D04ECB07CB69 /* [CP] Check Pods Manifest.lock */,
 				D009822723870FE800784BF8 /* Sources */,
 				D009822823870FE800784BF8 /* Frameworks */,
 				D009822923870FE800784BF8 /* Resources */,
+				BBD53A7884CA1A749AC8EEAB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D009825823870FEA00784BF8 /* Build configuration list for PBXNativeTarget "Group-F-Protective-App-IOSTests" */;
 			buildPhases = (
+				3271AF41461D0AD39D1E3DF8 /* [CP] Check Pods Manifest.lock */,
 				D009823D23870FEA00784BF8 /* Sources */,
 				D009823E23870FEA00784BF8 /* Frameworks */,
 				D009823F23870FEA00784BF8 /* Resources */,
@@ -170,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D009825B23870FEA00784BF8 /* Build configuration list for PBXNativeTarget "Group-F-Protective-App-IOSUITests" */;
 			buildPhases = (
+				F508C9B4DC0682450259191E /* [CP] Check Pods Manifest.lock */,
 				D009824823870FEA00784BF8 /* Sources */,
 				D009824923870FEA00784BF8 /* Frameworks */,
 				D009824A23870FEA00784BF8 /* Resources */,
+				A51A99886AF00EB936C1AFA5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D009823B23870FE900784BF8 /* LaunchScreen.storyboard in Resources */,
+				D00982692387177B00784BF8 /* GoogleService-Info.plist in Resources */,
 				D009823823870FE900784BF8 /* Assets.xcassets in Resources */,
 				D009823623870FE800784BF8 /* Main.storyboard in Resources */,
 			);
@@ -254,14 +319,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3271AF41461D0AD39D1E3DF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Group-F-Protective-App-IOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60A36FCA9426D04ECB07CB69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Group-F-Protective-App-IOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A51A99886AF00EB936C1AFA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Group-F-Protective-App-IOS-Group-F-Protective-App-IOSUITests/Pods-Group-F-Protective-App-IOS-Group-F-Protective-App-IOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Group-F-Protective-App-IOS-Group-F-Protective-App-IOSUITests/Pods-Group-F-Protective-App-IOS-Group-F-Protective-App-IOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Group-F-Protective-App-IOS-Group-F-Protective-App-IOSUITests/Pods-Group-F-Protective-App-IOS-Group-F-Protective-App-IOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBD53A7884CA1A749AC8EEAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Group-F-Protective-App-IOS/Pods-Group-F-Protective-App-IOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Group-F-Protective-App-IOS/Pods-Group-F-Protective-App-IOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Group-F-Protective-App-IOS/Pods-Group-F-Protective-App-IOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F508C9B4DC0682450259191E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Group-F-Protective-App-IOS-Group-F-Protective-App-IOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D009822723870FE800784BF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0098265238713A500784BF8 /* LoginViewController.swift in Sources */,
+				D00982632387139400784BF8 /* SignupViewController.swift in Sources */,
 				D009823323870FE800784BF8 /* ViewController.swift in Sources */,
+				D0098267238713B400784BF8 /* HomeViewController.swift in Sources */,
 				D009822F23870FE800784BF8 /* AppDelegate.swift in Sources */,
 				D009823123870FE800784BF8 /* SceneDelegate.swift in Sources */,
+				D00982612387104A00784BF8 /* Utilities.swift in Sources */,
+				D009825F2387101A00784BF8 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +605,7 @@
 		};
 		D009825623870FEA00784BF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC0FA4E3728C6AED227B21C7 /* Pods-Group-F-Protective-App-IOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +624,7 @@
 		};
 		D009825723870FEA00784BF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 644F11206B549BCEAB347E32 /* Pods-Group-F-Protective-App-IOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +643,7 @@
 		};
 		D009825923870FEA00784BF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5FD6B8733CD94E3D4A0DFAF /* Pods-Group-F-Protective-App-IOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +666,7 @@
 		};
 		D009825A23870FEA00784BF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ECD0D95F1A15F6408C3C8D3 /* Pods-Group-F-Protective-App-IOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +689,7 @@
 		};
 		D009825C23870FEA00784BF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 897E503103A29FF4C6E6BBDC /* Pods-Group-F-Protective-App-IOS-Group-F-Protective-App-IOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +710,7 @@
 		};
 		D009825D23870FEA00784BF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20DC8A3EAC91073211495889 /* Pods-Group-F-Protective-App-IOS-Group-F-Protective-App-IOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
