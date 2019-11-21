@@ -31,11 +31,11 @@ class PostsViewController: UIViewController{
     }
     
     @IBAction func savepost(_ sender: Any) {
-//        if Takenimage != nil{
-//              let newPost = Post(image: Takenimage)
-//                newPost.save()
-//                self.dismiss(animated: true, completion: nil)
-//            }
+        if Takenimage != nil{
+              let newPost = Post(image: Takenimage)
+                newPost.save()
+                self.dismiss(animated: true, completion: nil)
+            }
         
     }
     
