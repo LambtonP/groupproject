@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,6 +24,7 @@
 		D0098265238713A500784BF8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0098264238713A500784BF8 /* LoginViewController.swift */; };
 		D0098267238713B400784BF8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0098266238713B400784BF8 /* HomeViewController.swift */; };
 		D00982692387177B00784BF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D00982682387177B00784BF8 /* GoogleService-Info.plist */; };
+		D009826B23871FED00784BF8 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D009826A23871FED00784BF8 /* PostsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		D0098264238713A500784BF8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D0098266238713B400784BF8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D00982682387177B00784BF8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D009826A23871FED00784BF8 /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
 		D5FD6B8733CD94E3D4A0DFAF /* Pods-Group-F-Protective-App-IOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Group-F-Protective-App-IOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Group-F-Protective-App-IOSTests/Pods-Group-F-Protective-App-IOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DC0FA4E3728C6AED227B21C7 /* Pods-Group-F-Protective-App-IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Group-F-Protective-App-IOS.debug.xcconfig"; path = "Target Support Files/Pods-Group-F-Protective-App-IOS/Pods-Group-F-Protective-App-IOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,7 +115,6 @@
 				D5FD6B8733CD94E3D4A0DFAF /* Pods-Group-F-Protective-App-IOSTests.debug.xcconfig */,
 				1ECD0D95F1A15F6408C3C8D3 /* Pods-Group-F-Protective-App-IOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -155,6 +156,7 @@
 				D00982622387139400784BF8 /* SignupViewController.swift */,
 				D0098264238713A500784BF8 /* LoginViewController.swift */,
 				D0098266238713B400784BF8 /* HomeViewController.swift */,
+				D009826A23871FED00784BF8 /* PostsViewController.swift */,
 			);
 			path = "Group-F-Protective-App-IOS";
 			sourceTree = "<group>";
@@ -430,6 +432,7 @@
 				D0098265238713A500784BF8 /* LoginViewController.swift in Sources */,
 				D00982632387139400784BF8 /* SignupViewController.swift in Sources */,
 				D009823323870FE800784BF8 /* ViewController.swift in Sources */,
+				D009826B23871FED00784BF8 /* PostsViewController.swift in Sources */,
 				D0098267238713B400784BF8 /* HomeViewController.swift in Sources */,
 				D009822F23870FE800784BF8 /* AppDelegate.swift in Sources */,
 				D009823123870FE800784BF8 /* SceneDelegate.swift in Sources */,
