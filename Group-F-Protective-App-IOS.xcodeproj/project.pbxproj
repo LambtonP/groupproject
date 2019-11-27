@@ -32,6 +32,13 @@
 		D009826B23871FED00784BF8 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D009826A23871FED00784BF8 /* PostsViewController.swift */; };
 		D009826D2387237C00784BF8 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D009826C2387237C00784BF8 /* Post.swift */; };
 		D00FD0F1238F2878000E442D /* vedioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00FD0F0238F2878000E442D /* vedioViewController.swift */; };
+		D00FD0F6238F299F000E442D /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00FD0F4238F299F000E442D /* AVKit.framework */; };
+		D00FD0F7238F299F000E442D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00FD0F5238F299F000E442D /* AVFoundation.framework */; };
+		D00FD0F8238F29C0000E442D /* 180607_A_101 2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D00FD0F2238F28E4000E442D /* 180607_A_101 2.mp4 */; };
+		D00FD0FB238F29E5000E442D /* vedio2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D00FD0F9238F29E3000E442D /* vedio2.mp4 */; };
+		D00FD0FC238F29E5000E442D /* vedio.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D00FD0FA238F29E5000E442D /* vedio.mp4 */; };
+		D00FD0FF238F2A45000E442D /* IMG_CE02A9BF23B6-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D00FD0FD238F2A43000E442D /* IMG_CE02A9BF23B6-1.jpeg */; };
+		D00FD100238F2A45000E442D /* IMG_C2F3053FD8B6-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D00FD0FE238F2A44000E442D /* IMG_C2F3053FD8B6-1.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +94,13 @@
 		D009826A23871FED00784BF8 /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
 		D009826C2387237C00784BF8 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		D00FD0F0238F2878000E442D /* vedioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vedioViewController.swift; sourceTree = "<group>"; };
+		D00FD0F2238F28E4000E442D /* 180607_A_101 2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "180607_A_101 2.mp4"; sourceTree = "<group>"; };
+		D00FD0F4238F299F000E442D /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		D00FD0F5238F299F000E442D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D00FD0F9238F29E3000E442D /* vedio2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vedio2.mp4; sourceTree = "<group>"; };
+		D00FD0FA238F29E5000E442D /* vedio.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vedio.mp4; sourceTree = "<group>"; };
+		D00FD0FD238F2A43000E442D /* IMG_CE02A9BF23B6-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_CE02A9BF23B6-1.jpeg"; sourceTree = "<group>"; };
+		D00FD0FE238F2A44000E442D /* IMG_C2F3053FD8B6-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_C2F3053FD8B6-1.jpeg"; sourceTree = "<group>"; };
 		D5FD6B8733CD94E3D4A0DFAF /* Pods-Group-F-Protective-App-IOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Group-F-Protective-App-IOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Group-F-Protective-App-IOSTests/Pods-Group-F-Protective-App-IOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DC0FA4E3728C6AED227B21C7 /* Pods-Group-F-Protective-App-IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Group-F-Protective-App-IOS.debug.xcconfig"; path = "Target Support Files/Pods-Group-F-Protective-App-IOS/Pods-Group-F-Protective-App-IOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +110,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D00FD0F6238F299F000E442D /* AVKit.framework in Frameworks */,
+				D00FD0F7238F299F000E442D /* AVFoundation.framework in Frameworks */,
 				BE16082529D5BCE7AEFB45D0 /* Pods_Group_F_Protective_App_IOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +151,10 @@
 		D009822223870FE800784BF8 = {
 			isa = PBXGroup;
 			children = (
+				D00FD0FE238F2A44000E442D /* IMG_C2F3053FD8B6-1.jpeg */,
+				D00FD0FD238F2A43000E442D /* IMG_CE02A9BF23B6-1.jpeg */,
+				D00FD0FA238F29E5000E442D /* vedio.mp4 */,
+				D00FD0F9238F29E3000E442D /* vedio2.mp4 */,
 				D009822D23870FE800784BF8 /* Group-F-Protective-App-IOS */,
 				D009824423870FEA00784BF8 /* Group-F-Protective-App-IOSTests */,
 				D009824F23870FEA00784BF8 /* Group-F-Protective-App-IOSUITests */,
@@ -157,6 +177,8 @@
 		D009822D23870FE800784BF8 /* Group-F-Protective-App-IOS */ = {
 			isa = PBXGroup;
 			children = (
+				D00FD0F3238F2902000E442D /* videos */,
+				D00FD0F2238F28E4000E442D /* 180607_A_101 2.mp4 */,
 				D00982682387177B00784BF8 /* GoogleService-Info.plist */,
 				D00982602387104A00784BF8 /* Utilities.swift */,
 				D009825E2387101A00784BF8 /* Constants.swift */,
@@ -200,9 +222,18 @@
 			path = "Group-F-Protective-App-IOSUITests";
 			sourceTree = "<group>";
 		};
+		D00FD0F3238F2902000E442D /* videos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = videos;
+			sourceTree = "<group>";
+		};
 		D0582C5D0FED9EDAF8EF228D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D00FD0F5238F299F000E442D /* AVFoundation.framework */,
+				D00FD0F4238F299F000E442D /* AVKit.framework */,
 				2AD1973C5C9AEB0ABAD255AD /* Pods_Group_F_Protective_App_IOS.framework */,
 				994E895A6348A53AD3413D7B /* Pods_Group_F_Protective_App_IOS_Group_F_Protective_App_IOSUITests.framework */,
 				2A3AB8CEA5CF0FAF82037611 /* Pods_Group_F_Protective_App_IOSTests.framework */,
@@ -319,6 +350,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D00FD0FF238F2A45000E442D /* IMG_CE02A9BF23B6-1.jpeg in Resources */,
+				D00FD100238F2A45000E442D /* IMG_C2F3053FD8B6-1.jpeg in Resources */,
+				D00FD0FB238F29E5000E442D /* vedio2.mp4 in Resources */,
+				D00FD0FC238F29E5000E442D /* vedio.mp4 in Resources */,
+				D00FD0F8238F29C0000E442D /* 180607_A_101 2.mp4 in Resources */,
 				D009823B23870FE900784BF8 /* LaunchScreen.storyboard in Resources */,
 				D00982692387177B00784BF8 /* GoogleService-Info.plist in Resources */,
 				D009823823870FE900784BF8 /* Assets.xcassets in Resources */,
