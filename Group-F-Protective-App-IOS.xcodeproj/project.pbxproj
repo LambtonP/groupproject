@@ -10,6 +10,11 @@
 		54CDC43E94083FD1ED339532 /* Pods_Group_F_Protective_App_IOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A3AB8CEA5CF0FAF82037611 /* Pods_Group_F_Protective_App_IOSTests.framework */; };
 		614F696189146496A895B189 /* Pods_Group_F_Protective_App_IOS_Group_F_Protective_App_IOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994E895A6348A53AD3413D7B /* Pods_Group_F_Protective_App_IOS_Group_F_Protective_App_IOSUITests.framework */; };
 		BE16082529D5BCE7AEFB45D0 /* Pods_Group_F_Protective_App_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD1973C5C9AEB0ABAD255AD /* Pods_Group_F_Protective_App_IOS.framework */; };
+		D0081BB72388625700546922 /* notesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0081BB22388625500546922 /* notesViewController.swift */; };
+		D0081BB82388625700546922 /* structurefile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0081BB32388625500546922 /* structurefile.swift */; };
+		D0081BB92388625700546922 /* tableviewcontrollerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0081BB42388625600546922 /* tableviewcontrollerTableViewController.swift */; };
+		D0081BBA2388625700546922 /* listTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0081BB52388625600546922 /* listTableViewController.swift */; };
+		D0081BBB2388625700546922 /* movenotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0081BB62388625700546922 /* movenotesViewController.swift */; };
 		D009822F23870FE800784BF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D009822E23870FE800784BF8 /* AppDelegate.swift */; };
 		D009823123870FE800784BF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D009823023870FE800784BF8 /* SceneDelegate.swift */; };
 		D009823323870FE800784BF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D009823223870FE800784BF8 /* ViewController.swift */; };
@@ -53,6 +58,11 @@
 		644F11206B549BCEAB347E32 /* Pods-Group-F-Protective-App-IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Group-F-Protective-App-IOS.release.xcconfig"; path = "Target Support Files/Pods-Group-F-Protective-App-IOS/Pods-Group-F-Protective-App-IOS.release.xcconfig"; sourceTree = "<group>"; };
 		897E503103A29FF4C6E6BBDC /* Pods-Group-F-Protective-App-IOS-Group-F-Protective-App-IOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Group-F-Protective-App-IOS-Group-F-Protective-App-IOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-Group-F-Protective-App-IOS-Group-F-Protective-App-IOSUITests/Pods-Group-F-Protective-App-IOS-Group-F-Protective-App-IOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		994E895A6348A53AD3413D7B /* Pods_Group_F_Protective_App_IOS_Group_F_Protective_App_IOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Group_F_Protective_App_IOS_Group_F_Protective_App_IOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0081BB22388625500546922 /* notesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = notesViewController.swift; sourceTree = "<group>"; };
+		D0081BB32388625500546922 /* structurefile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = structurefile.swift; sourceTree = "<group>"; };
+		D0081BB42388625600546922 /* tableviewcontrollerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableviewcontrollerTableViewController.swift; sourceTree = "<group>"; };
+		D0081BB52388625600546922 /* listTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listTableViewController.swift; sourceTree = "<group>"; };
+		D0081BB62388625700546922 /* movenotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = movenotesViewController.swift; sourceTree = "<group>"; };
 		D009822B23870FE800784BF8 /* Group-F-Protective-App-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Group-F-Protective-App-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D009822E23870FE800784BF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D009823023870FE800784BF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -152,6 +162,11 @@
 				D009823023870FE800784BF8 /* SceneDelegate.swift */,
 				D009823223870FE800784BF8 /* ViewController.swift */,
 				D009823423870FE800784BF8 /* Main.storyboard */,
+				D0081BB52388625600546922 /* listTableViewController.swift */,
+				D0081BB62388625700546922 /* movenotesViewController.swift */,
+				D0081BB22388625500546922 /* notesViewController.swift */,
+				D0081BB32388625500546922 /* structurefile.swift */,
+				D0081BB42388625600546922 /* tableviewcontrollerTableViewController.swift */,
 				D009823723870FE900784BF8 /* Assets.xcassets */,
 				D009823923870FE900784BF8 /* LaunchScreen.storyboard */,
 				D009823C23870FE900784BF8 /* Info.plist */,
@@ -436,12 +451,17 @@
 				D00982632387139400784BF8 /* SignupViewController.swift in Sources */,
 				D009823323870FE800784BF8 /* ViewController.swift in Sources */,
 				D009826B23871FED00784BF8 /* PostsViewController.swift in Sources */,
+				D0081BB72388625700546922 /* notesViewController.swift in Sources */,
 				D0098267238713B400784BF8 /* HomeViewController.swift in Sources */,
 				D009822F23870FE800784BF8 /* AppDelegate.swift in Sources */,
+				D0081BBA2388625700546922 /* listTableViewController.swift in Sources */,
 				D009823123870FE800784BF8 /* SceneDelegate.swift in Sources */,
 				D00982612387104A00784BF8 /* Utilities.swift in Sources */,
+				D0081BB92388625700546922 /* tableviewcontrollerTableViewController.swift in Sources */,
 				D009825F2387101A00784BF8 /* Constants.swift in Sources */,
 				D009826D2387237C00784BF8 /* Post.swift in Sources */,
+				D0081BBB2388625700546922 /* movenotesViewController.swift in Sources */,
+				D0081BB82388625700546922 /* structurefile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
