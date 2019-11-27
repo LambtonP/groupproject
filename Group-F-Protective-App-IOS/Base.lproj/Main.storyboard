@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fY2-fR-Zj9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="J1P-6s-lwa">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
@@ -184,6 +184,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UVD-Vi-v33">
+                                <rect key="frame" x="206" y="396" width="173" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Vedio"/>
+                                <connections>
+                                    <segue destination="15L-qI-SZp" kind="show" id="Y7p-3p-K1P"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Video" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ll7-FX-2PA">
+                                <rect key="frame" x="270" y="553" width="44" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="qqw-JN-N2R"/>
@@ -207,6 +222,7 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <items>
                                 <navigationItem title="Posts" id="NJH-td-qaq">
+                                    <barButtonItem key="leftBarButtonItem" style="plain" systemItem="cancel" id="Usw-XE-n9f"/>
                                     <barButtonItem key="rightBarButtonItem" title="Item" image="camera.fill" catalog="system" id="dOE-eW-RpX">
                                         <connections>
                                             <segue destination="3an-V7-JfG" kind="show" id="t1r-r1-3qs"/>
@@ -412,6 +428,11 @@
                         </barButtonItem>
                     </toolbarItems>
                     <navigationItem key="navigationItem" title="Folders" largeTitleDisplayMode="always" id="bjD-fS-oYU">
+                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="cancel" id="cSn-h1-jLH">
+                            <connections>
+                                <action selector="backbutton:" destination="sJV-Aj-dNx" id="u6j-y1-1uz"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" style="plain" systemItem="edit" id="iIa-31-LtT"/>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
@@ -581,12 +602,12 @@
             </objects>
             <point key="canvasLocation" x="2593" y="987"/>
         </scene>
-        <!--View Controller-->
+        <!--Vedio View Controller-->
         <scene sceneID="e67-ip-wUW">
             <objects>
-                <viewController id="15L-qI-SZp" customClass="ViewController" customModule="vedio" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="15L-qI-SZp" customClass="vedioViewController" customModule="Group_F_Protective_App_IOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UGN-Xk-bXC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Play list" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bp3-jh-kHb">
@@ -597,11 +618,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pbe-Fi-HGO">
-                                <rect key="frame" x="52" y="122" width="313" height="121"/>
+                                <rect key="frame" x="53" y="136" width="313" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="play" image="IMG_CE02A9BF23B6-1.jpeg"/>
                                 <connections>
-                                    <action selector="playbutton:" destination="15L-qI-SZp" eventType="touchUpInside" id="rU4-JC-Z7C"/>
+                                    <action selector="playbutton:" destination="15L-qI-SZp" eventType="touchUpInside" id="xGe-zv-ZKN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bhj-rB-E7M">
@@ -609,25 +630,35 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="IMG_C2F3053FD8B6-1.jpeg"/>
                                 <connections>
-                                    <action selector="secondplay:" destination="15L-qI-SZp" eventType="touchUpInside" id="MDO-Tg-omM"/>
+                                    <action selector="secondplay:" destination="15L-qI-SZp" eventType="touchUpInside" id="Sxg-1I-39r"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZkR-Qx-Syt">
+                                <rect key="frame" x="52" y="68" width="59" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="BACKBUTTON:" destination="15L-qI-SZp" eventType="touchUpInside" id="Bgz-cW-dPd"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="ImX-i6-ZPQ"/>
                     </view>
+                    <navigationItem key="navigationItem" id="AeJ-cK-y1y"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HP7-ph-7d2" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4996" y="-28"/>
+            <point key="canvasLocation" x="4995.652173913044" y="-28.125"/>
         </scene>
     </scenes>
     <resources>
-        <image name="IMG_C2F3053FD8B6-1.jpeg" width="16" height="16"/>
-        <image name="IMG_CE02A9BF23B6-1.jpeg" width="16" height="16"/>
+        <image name="IMG_C2F3053FD8B6-1.jpeg" width="414" height="289"/>
+        <image name="IMG_CE02A9BF23B6-1.jpeg" width="414" height="232"/>
         <image name="Notes" width="225" height="225"/>
         <image name="Password" width="225" height="225"/>
         <image name="Photos" width="580" height="387"/>
+        <image name="Vedio" width="225" height="224"/>
         <image name="camera.fill" catalog="system" width="64" height="48"/>
         <image name="ellipsis" catalog="system" width="64" height="18"/>
         <image name="pencil.and.ellipsis.rectangle" catalog="system" width="64" height="40"/>

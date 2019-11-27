@@ -251,5 +251,11 @@ class tableviewcontrollerTableViewController: UITableViewController {
            tableView.reloadData()
     }
     
+    
+    @IBAction func backbutton(_ sender: UIBarButtonItem) {
+        
+        self.dismiss(animated: true, completion: nil)
+    }
+    
 
 }
