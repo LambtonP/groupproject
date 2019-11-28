@@ -1,35 +1,22 @@
 //
-//  HomeViewController.swift
+//  PhotosfeedViewController.swift
 //  Group-F-Protective-App-IOS
 //
-//  Created by Simran Chakkal on 2019-11-21.
+//  Created by Simran Chakkal on 2019-11-28.
 //  Copyright © 2019 Simran Chakkal. All rights reserved.
 //
 
 import UIKit
-import Firebase
 
-class HomeViewController: UIViewController {
-   
-    
+class PhotosfeedViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
- 
-    @IBAction func logoutbutton(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
-//        do{
-//               try  Auth.auth().signOut()
-//             } catch let signoutError as NSError{
-//                 print("Error in signing out: %@", signoutError)
-//             }
-//        
-//        print("logout")
-    }
-    
+
     /*
     // MARK: - Navigation
 

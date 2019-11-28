@@ -43,10 +43,11 @@
 		D06E1AE3238F91240011D8C4 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D06E1AE2238F91240011D8C4 /* images.jpeg */; };
 		D06E1AE5238F912A0011D8C4 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D06E1AE4238F912A0011D8C4 /* audio.mp3 */; };
 		D06E1AE7238F91340011D8C4 /* audio2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D06E1AE6238F91340011D8C4 /* audio2.m4a */; };
-		D06E1AED238F959E0011D8C4 /* audioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E1AEC238F959E0011D8C4 /* audioViewController.swift */; };
 		D06E1AEF238F99C90011D8C4 /* privacyicon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D06E1AEE238F99C90011D8C4 /* privacyicon.jpg */; };
 		D06E1AF1238F9A440011D8C4 /* photosicon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D06E1AF0238F9A440011D8C4 /* photosicon.jpeg */; };
 		D06E1AF3238F9B2C0011D8C4 /* audioicon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D06E1AF2238F9B2C0011D8C4 /* audioicon.jpg */; };
+		D06E1AF5238F9E850011D8C4 /* audioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E1AF4238F9E850011D8C4 /* audioViewController.swift */; };
+		D0D2D90F23905E2600AC250A /* PhotosfeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D2D90E23905E2600AC250A /* PhotosfeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,10 +114,11 @@
 		D06E1AE2238F91240011D8C4 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 		D06E1AE4238F912A0011D8C4 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
 		D06E1AE6238F91340011D8C4 /* audio2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio2.m4a; sourceTree = "<group>"; };
-		D06E1AEC238F959E0011D8C4 /* audioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = audioViewController.swift; path = ../../audio/audio/audioViewController.swift; sourceTree = "<group>"; };
 		D06E1AEE238F99C90011D8C4 /* privacyicon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = privacyicon.jpg; sourceTree = "<group>"; };
 		D06E1AF0238F9A440011D8C4 /* photosicon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photosicon.jpeg; sourceTree = "<group>"; };
 		D06E1AF2238F9B2C0011D8C4 /* audioicon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = audioicon.jpg; sourceTree = "<group>"; };
+		D06E1AF4238F9E850011D8C4 /* audioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audioViewController.swift; sourceTree = "<group>"; };
+		D0D2D90E23905E2600AC250A /* PhotosfeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosfeedViewController.swift; sourceTree = "<group>"; };
 		D5FD6B8733CD94E3D4A0DFAF /* Pods-Group-F-Protective-App-IOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Group-F-Protective-App-IOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Group-F-Protective-App-IOSTests/Pods-Group-F-Protective-App-IOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DC0FA4E3728C6AED227B21C7 /* Pods-Group-F-Protective-App-IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Group-F-Protective-App-IOS.debug.xcconfig"; path = "Target Support Files/Pods-Group-F-Protective-App-IOS/Pods-Group-F-Protective-App-IOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -209,7 +211,6 @@
 				D009823023870FE800784BF8 /* SceneDelegate.swift */,
 				D009823223870FE800784BF8 /* ViewController.swift */,
 				D009823423870FE800784BF8 /* Main.storyboard */,
-				D06E1AEC238F959E0011D8C4 /* audioViewController.swift */,
 				D0081BB52388625600546922 /* listTableViewController.swift */,
 				D0081BB62388625700546922 /* movenotesViewController.swift */,
 				D0081BB22388625500546922 /* notesViewController.swift */,
@@ -224,6 +225,8 @@
 				D009826A23871FED00784BF8 /* PostsViewController.swift */,
 				D009826C2387237C00784BF8 /* Post.swift */,
 				D00FD0F0238F2878000E442D /* vedioViewController.swift */,
+				D06E1AF4238F9E850011D8C4 /* audioViewController.swift */,
+				D0D2D90E23905E2600AC250A /* PhotosfeedViewController.swift */,
 			);
 			path = "Group-F-Protective-App-IOS";
 			sourceTree = "<group>";
@@ -523,15 +526,16 @@
 				D009826B23871FED00784BF8 /* PostsViewController.swift in Sources */,
 				D0081BB72388625700546922 /* notesViewController.swift in Sources */,
 				D0098267238713B400784BF8 /* HomeViewController.swift in Sources */,
+				D06E1AF5238F9E850011D8C4 /* audioViewController.swift in Sources */,
 				D009822F23870FE800784BF8 /* AppDelegate.swift in Sources */,
 				D0081BBA2388625700546922 /* listTableViewController.swift in Sources */,
 				D009823123870FE800784BF8 /* SceneDelegate.swift in Sources */,
-				D06E1AED238F959E0011D8C4 /* audioViewController.swift in Sources */,
 				D00982612387104A00784BF8 /* Utilities.swift in Sources */,
 				D00FD0F1238F2878000E442D /* vedioViewController.swift in Sources */,
 				D0081BB92388625700546922 /* tableviewcontrollerTableViewController.swift in Sources */,
 				D009825F2387101A00784BF8 /* Constants.swift in Sources */,
 				D009826D2387237C00784BF8 /* Post.swift in Sources */,
+				D0D2D90F23905E2600AC250A /* PhotosfeedViewController.swift in Sources */,
 				D0081BBB2388625700546922 /* movenotesViewController.swift in Sources */,
 				D0081BB82388625700546922 /* structurefile.swift in Sources */,
 			);
