@@ -651,10 +651,10 @@
             </objects>
             <point key="canvasLocation" x="4995.652173913044" y="-28.125"/>
         </scene>
-        <!--View Controller-->
+        <!--Audio View Controller-->
         <scene sceneID="gUG-dB-VgU">
             <objects>
-                <viewController id="Rw3-da-Q56" customClass="ViewController" customModule="audio" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Rw3-da-Q56" customClass="audioViewController" customModule="Group_F_Protective_App_IOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nXA-aF-uhc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -665,6 +665,7 @@
                                 <size key="titleShadowOffset" width="9" height="4"/>
                                 <state key="normal" title="Play"/>
                                 <connections>
+                                    <action selector="playbutton1:" destination="Rw3-da-Q56" eventType="touchUpInside" id="mJU-BF-lEQ"/>
                                     <action selector="playbutton:" destination="Rw3-da-Q56" eventType="touchUpInside" id="qVw-Wn-Gff"/>
                                 </connections>
                             </button>
@@ -684,11 +685,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kxr-0Z-WH8">
-                                <rect key="frame" x="50" y="377" width="30" height="30"/>
+                                <rect key="frame" x="50" y="377" width="30" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Play"/>
                                 <connections>
-                                    <action selector="playbutton2:" destination="Rw3-da-Q56" eventType="touchUpInside" id="gA8-qR-bAO"/>
+                                    <action selector="playbutton2:" destination="Rw3-da-Q56" eventType="touchUpInside" id="cyM-EZ-ydl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J9S-Rh-QRt">
@@ -696,7 +697,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Pause"/>
                                 <connections>
-                                    <action selector="pausebutton2:" destination="Rw3-da-Q56" eventType="touchUpInside" id="V5N-VA-Gsy"/>
+                                    <action selector="pausebutton2:" destination="Rw3-da-Q56" eventType="touchUpInside" id="sNq-DW-C1L"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vmp-7V-7Um">
@@ -705,6 +706,7 @@
                                 <size key="titleShadowOffset" width="9" height="3"/>
                                 <state key="normal" title="Pause"/>
                                 <connections>
+                                    <action selector="pausebutton1:" destination="Rw3-da-Q56" eventType="touchUpInside" id="T2T-OU-bOi"/>
                                     <action selector="pausebutton:" destination="Rw3-da-Q56" eventType="touchUpInside" id="SUd-Kj-zxH"/>
                                 </connections>
                             </button>
@@ -715,7 +717,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7dP-x6-3Im" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2593" y="-751"/>
+            <point key="canvasLocation" x="2592.753623188406" y="-751.33928571428567"/>
         </scene>
     </scenes>
     <resources>
