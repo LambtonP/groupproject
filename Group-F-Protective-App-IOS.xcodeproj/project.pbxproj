@@ -43,6 +43,7 @@
 		D06E1AE3238F91240011D8C4 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D06E1AE2238F91240011D8C4 /* images.jpeg */; };
 		D06E1AE5238F912A0011D8C4 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D06E1AE4238F912A0011D8C4 /* audio.mp3 */; };
 		D06E1AE7238F91340011D8C4 /* audio2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D06E1AE6238F91340011D8C4 /* audio2.m4a */; };
+		D06E1AE9238F91C60011D8C4 /* audioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E1AE8238F91C60011D8C4 /* audioViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +110,7 @@
 		D06E1AE2238F91240011D8C4 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 		D06E1AE4238F912A0011D8C4 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
 		D06E1AE6238F91340011D8C4 /* audio2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio2.m4a; sourceTree = "<group>"; };
+		D06E1AE8238F91C60011D8C4 /* audioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audioViewController.swift; sourceTree = "<group>"; };
 		D5FD6B8733CD94E3D4A0DFAF /* Pods-Group-F-Protective-App-IOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Group-F-Protective-App-IOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Group-F-Protective-App-IOSTests/Pods-Group-F-Protective-App-IOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DC0FA4E3728C6AED227B21C7 /* Pods-Group-F-Protective-App-IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Group-F-Protective-App-IOS.debug.xcconfig"; path = "Target Support Files/Pods-Group-F-Protective-App-IOS/Pods-Group-F-Protective-App-IOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -212,6 +214,7 @@
 				D009826A23871FED00784BF8 /* PostsViewController.swift */,
 				D009826C2387237C00784BF8 /* Post.swift */,
 				D00FD0F0238F2878000E442D /* vedioViewController.swift */,
+				D06E1AE8238F91C60011D8C4 /* audioViewController.swift */,
 			);
 			path = "Group-F-Protective-App-IOS";
 			sourceTree = "<group>";
@@ -508,6 +511,7 @@
 				D009826B23871FED00784BF8 /* PostsViewController.swift in Sources */,
 				D0081BB72388625700546922 /* notesViewController.swift in Sources */,
 				D0098267238713B400784BF8 /* HomeViewController.swift in Sources */,
+				D06E1AE9238F91C60011D8C4 /* audioViewController.swift in Sources */,
 				D009822F23870FE800784BF8 /* AppDelegate.swift in Sources */,
 				D0081BBA2388625700546922 /* listTableViewController.swift in Sources */,
 				D009823123870FE800784BF8 /* SceneDelegate.swift in Sources */,
