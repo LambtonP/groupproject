@@ -39,6 +39,10 @@
 		D00FD0FC238F29E5000E442D /* vedio.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D00FD0FA238F29E5000E442D /* vedio.mp4 */; };
 		D00FD0FF238F2A45000E442D /* IMG_CE02A9BF23B6-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D00FD0FD238F2A43000E442D /* IMG_CE02A9BF23B6-1.jpeg */; };
 		D00FD100238F2A45000E442D /* IMG_C2F3053FD8B6-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D00FD0FE238F2A44000E442D /* IMG_C2F3053FD8B6-1.jpeg */; };
+		D06E1AE1238F911A0011D8C4 /* Unknown.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D06E1AE0238F911A0011D8C4 /* Unknown.jpeg */; };
+		D06E1AE3238F91240011D8C4 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D06E1AE2238F91240011D8C4 /* images.jpeg */; };
+		D06E1AE5238F912A0011D8C4 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D06E1AE4238F912A0011D8C4 /* audio.mp3 */; };
+		D06E1AE7238F91340011D8C4 /* audio2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D06E1AE6238F91340011D8C4 /* audio2.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +105,10 @@
 		D00FD0FA238F29E5000E442D /* vedio.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vedio.mp4; sourceTree = "<group>"; };
 		D00FD0FD238F2A43000E442D /* IMG_CE02A9BF23B6-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_CE02A9BF23B6-1.jpeg"; sourceTree = "<group>"; };
 		D00FD0FE238F2A44000E442D /* IMG_C2F3053FD8B6-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_C2F3053FD8B6-1.jpeg"; sourceTree = "<group>"; };
+		D06E1AE0238F911A0011D8C4 /* Unknown.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Unknown.jpeg; sourceTree = "<group>"; };
+		D06E1AE2238F91240011D8C4 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		D06E1AE4238F912A0011D8C4 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
+		D06E1AE6238F91340011D8C4 /* audio2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio2.m4a; sourceTree = "<group>"; };
 		D5FD6B8733CD94E3D4A0DFAF /* Pods-Group-F-Protective-App-IOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Group-F-Protective-App-IOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Group-F-Protective-App-IOSTests/Pods-Group-F-Protective-App-IOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DC0FA4E3728C6AED227B21C7 /* Pods-Group-F-Protective-App-IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Group-F-Protective-App-IOS.debug.xcconfig"; path = "Target Support Files/Pods-Group-F-Protective-App-IOS/Pods-Group-F-Protective-App-IOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -154,6 +162,10 @@
 				D00FD0FE238F2A44000E442D /* IMG_C2F3053FD8B6-1.jpeg */,
 				D00FD0FD238F2A43000E442D /* IMG_CE02A9BF23B6-1.jpeg */,
 				D00FD0FA238F29E5000E442D /* vedio.mp4 */,
+				D06E1AE2238F91240011D8C4 /* images.jpeg */,
+				D06E1AE0238F911A0011D8C4 /* Unknown.jpeg */,
+				D06E1AE4238F912A0011D8C4 /* audio.mp3 */,
+				D06E1AE6238F91340011D8C4 /* audio2.m4a */,
 				D00FD0F9238F29E3000E442D /* vedio2.mp4 */,
 				D009822D23870FE800784BF8 /* Group-F-Protective-App-IOS */,
 				D009824423870FEA00784BF8 /* Group-F-Protective-App-IOSTests */,
@@ -351,11 +363,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D00FD0FF238F2A45000E442D /* IMG_CE02A9BF23B6-1.jpeg in Resources */,
+				D06E1AE5238F912A0011D8C4 /* audio.mp3 in Resources */,
+				D06E1AE7238F91340011D8C4 /* audio2.m4a in Resources */,
 				D00FD100238F2A45000E442D /* IMG_C2F3053FD8B6-1.jpeg in Resources */,
 				D00FD0FB238F29E5000E442D /* vedio2.mp4 in Resources */,
 				D00FD0FC238F29E5000E442D /* vedio.mp4 in Resources */,
+				D06E1AE1238F911A0011D8C4 /* Unknown.jpeg in Resources */,
 				D00FD0F8238F29C0000E442D /* 180607_A_101 2.mp4 in Resources */,
 				D009823B23870FE900784BF8 /* LaunchScreen.storyboard in Resources */,
+				D06E1AE3238F91240011D8C4 /* images.jpeg in Resources */,
 				D00982692387177B00784BF8 /* GoogleService-Info.plist in Resources */,
 				D009823823870FE900784BF8 /* Assets.xcassets in Resources */,
 				D009823623870FE800784BF8 /* Main.storyboard in Resources */,
