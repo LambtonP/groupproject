@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="J1P-6s-lwa">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PvS-GJ-wLx">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
@@ -34,7 +34,7 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Password" translatesAutoresizingMaskIntoConstraints="NO" id="dWT-Wv-cMh">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="privacyicon.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dWT-Wv-cMh">
                                 <rect key="frame" x="40" y="131" width="321" height="534"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -145,7 +145,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ybI-cz-qiQ">
                                 <rect key="frame" x="20" y="157" width="178" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Photos"/>
+                                <state key="normal" title="Button" image="photosicon.jpeg"/>
                                 <connections>
                                     <segue destination="VLD-sy-8fr" kind="show" id="GUS-G1-SPa"/>
                                 </connections>
@@ -160,7 +160,10 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LFZ-ML-YNz">
                                 <rect key="frame" x="206" y="162" width="173" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Password"/>
+                                <state key="normal" title="Button" image="audioicon.jpg"/>
+                                <connections>
+                                    <segue destination="PvS-GJ-wLx" kind="show" id="EDy-9K-eh4"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Accounts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LXk-9k-4ju">
                                 <rect key="frame" x="234" y="327" width="116" height="28"/>
@@ -652,70 +655,77 @@
             <point key="canvasLocation" x="4995.652173913044" y="-28.125"/>
         </scene>
         <!--Audio View Controller-->
-        <scene sceneID="gUG-dB-VgU">
+        <scene sceneID="cmy-pR-zdQ">
             <objects>
-                <viewController id="Rw3-da-Q56" customClass="audioViewController" customModule="Group_F_Protective_App_IOS" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="nXA-aF-uhc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                <viewController id="PvS-GJ-wLx" customClass="audioViewController" customModule="Group_F_Protective_App_IOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JBp-M3-yqO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nCc-tX-yBx">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AgF-0O-Lig">
                                 <rect key="frame" x="58" y="200" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <size key="titleShadowOffset" width="9" height="4"/>
                                 <state key="normal" title="Play"/>
                                 <connections>
-                                    <action selector="playbutton1:" destination="Rw3-da-Q56" eventType="touchUpInside" id="mJU-BF-lEQ"/>
-                                    <action selector="playbutton:" destination="Rw3-da-Q56" eventType="touchUpInside" id="qVw-Wn-Gff"/>
+                                    <action selector="playbutton:" destination="PvS-GJ-wLx" eventType="touchUpInside" id="tBj-28-2f3"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="h4N-Gf-cOM">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="HzB-Za-REe">
                                 <rect key="frame" x="96" y="151" width="221" height="129"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Music " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FtR-wQ-svu">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Music " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ap9-Ob-gqU">
                                 <rect key="frame" x="181" y="102" width="50" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="LcB-MU-wm7">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="k4q-3c-Emv">
                                 <rect key="frame" x="107" y="328" width="195" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kxr-0Z-WH8">
-                                <rect key="frame" x="50" y="377" width="30" height="41"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4we-Fe-bOS">
+                                <rect key="frame" x="50" y="377" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Play"/>
                                 <connections>
-                                    <action selector="playbutton2:" destination="Rw3-da-Q56" eventType="touchUpInside" id="cyM-EZ-ydl"/>
+                                    <action selector="playbutton2:" destination="PvS-GJ-wLx" eventType="touchUpInside" id="dLW-h1-SoX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J9S-Rh-QRt">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="byc-Eg-ztC">
                                 <rect key="frame" x="325" y="377" width="42" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Pause"/>
                                 <connections>
-                                    <action selector="pausebutton2:" destination="Rw3-da-Q56" eventType="touchUpInside" id="sNq-DW-C1L"/>
+                                    <action selector="pausebutton2:" destination="PvS-GJ-wLx" eventType="touchUpInside" id="wQr-bI-v5P"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vmp-7V-7Um">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQ6-35-Ydg">
                                 <rect key="frame" x="325" y="200" width="42" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <size key="titleShadowOffset" width="9" height="3"/>
                                 <state key="normal" title="Pause"/>
                                 <connections>
-                                    <action selector="pausebutton1:" destination="Rw3-da-Q56" eventType="touchUpInside" id="T2T-OU-bOi"/>
-                                    <action selector="pausebutton:" destination="Rw3-da-Q56" eventType="touchUpInside" id="SUd-Kj-zxH"/>
+                                    <action selector="pausebutton:" destination="PvS-GJ-wLx" eventType="touchUpInside" id="yvg-4A-x1l"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ca-7P-3sh">
+                                <rect key="frame" x="34" y="20" width="54" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="backbutton:" destination="PvS-GJ-wLx" eventType="touchUpInside" id="dHG-zj-ano"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="9S4-8G-IQZ"/>
+                        <viewLayoutGuide key="safeArea" id="Edh-Uw-Mg7"/>
                     </view>
+                    <navigationItem key="navigationItem" id="60t-gG-WUx"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7dP-x6-3Im" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vyW-DE-Ppt" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2592.753623188406" y="-751.33928571428567"/>
         </scene>
@@ -724,13 +734,15 @@
         <image name="IMG_C2F3053FD8B6-1.jpeg" width="414" height="289"/>
         <image name="IMG_CE02A9BF23B6-1.jpeg" width="414" height="232"/>
         <image name="Password" width="225" height="225"/>
-        <image name="Photos" width="580" height="387"/>
         <image name="Unknown.jpeg" width="296" height="170"/>
         <image name="Vedio" width="225" height="224"/>
+        <image name="audioicon.jpg" width="1280" height="1024"/>
         <image name="camera.fill" catalog="system" width="64" height="48"/>
         <image name="ellipsis" catalog="system" width="64" height="18"/>
         <image name="images.jpeg" width="259" height="194"/>
         <image name="pencil.and.ellipsis.rectangle" catalog="system" width="64" height="40"/>
+        <image name="photosicon.jpeg" width="362" height="362"/>
+        <image name="privacyicon.jpg" width="1051.6854248046875" height="1051.6854248046875"/>
         <image name="trash" catalog="system" width="60" height="64"/>
         <image name="tray.and.arrow.down" catalog="system" width="64" height="54"/>
     </resources>
