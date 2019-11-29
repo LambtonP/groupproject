@@ -12,11 +12,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Group_F_Protective_App_IOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Dtf-eA-0DQ">
-                                <rect key="frame" x="40" y="742" width="334" height="80"/>
+                                <rect key="frame" x="40" y="688" width="334" height="80"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C9J-Q5-psF">
                                         <rect key="frame" x="0.0" y="0.0" width="334" height="30"/>
@@ -62,11 +62,11 @@
             <objects>
                 <viewController id="lSb-Dw-gHB" customClass="SignupViewController" customModule="Group_F_Protective_App_IOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DZ8-k1-w9O">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Aq6-06-rl8">
-                                <rect key="frame" x="40" y="128" width="334" height="248"/>
+                                <rect key="frame" x="40" y="40" width="334" height="248"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="FirstName" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9nM-rS-zIV">
                                         <rect key="frame" x="0.0" y="0.0" width="334" height="40"/>
@@ -143,6 +143,7 @@
                                         <barButtonItem key="rightBarButtonItem" title="Logout" id="BXM-NG-Icc">
                                             <connections>
                                                 <action selector="logoutbutton:" destination="J1P-6s-lwa" id="6rh-SZ-7fb"/>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="pOO-pV-Vl5"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -267,11 +268,11 @@
             <objects>
                 <viewController id="wdh-IC-5Lf" customClass="LoginViewController" customModule="Group_F_Protective_App_IOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FGp-y1-LJe">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="1PG-DQ-Tls">
-                                <rect key="frame" x="40" y="138" width="334" height="194"/>
+                                <rect key="frame" x="40" y="50" width="334" height="194"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ezb-TN-PuF">
                                         <rect key="frame" x="0.0" y="0.0" width="334" height="40"/>
@@ -711,5 +712,6 @@
     <inferredMetricsTieBreakers>
         <segue reference="zSC-RO-uxC"/>
         <segue reference="geI-DF-bU9"/>
+        <segue reference="pOO-pV-Vl5"/>
     </inferredMetricsTieBreakers>
 </document>
